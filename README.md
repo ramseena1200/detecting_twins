@@ -11,9 +11,8 @@ This project can be used in law and order if one of the identical twins is invol
 Keras API,Python 2.7 / jupyter notebook (python 2.7 compatible)
 
 # Impelementation:
-To implement my model, you may use "Predict_final_VGG19.py" script present in my repository.In this script you have to make a change in the following line of code-
-data1=pd.read_csv("/home/risana/Downloads/Signal-Processing--master/5.Py_Scripts/Predict_Final.csv")
-
+To implement my model, you may use "testing_for_labels.py" script present in my repository.In this script you have to make a change in the following line of code-
+for filename in listdir('C:/Users/DELL/Desktop/vtoframe')
 Actually the dataset of images of both twins I collected is stored in local drive of my computer.Then I used the VGG19 model to make mean vector for the image dataset of both the twins.
 
 My training dataset consists of 127 images for each twin.The VGG19 model extract features from every images and return feature vector of each images while running the script.Then I computed mean feature vector for each categories.
