@@ -1,2 +1,2 @@
 # detecting_twins
-Using transfer learning to process images of twins and classify them without making any mistakes.
+Using transfer learning to process images of twins and classify them without making any mistakes.I have created dataset of two people who are twins by collecting 127 samples of each of them.Then I used this dataset to train the vgg19 model and created mean feature vector for both catagories.Then I created dataset for testing by collecting 17 images from both twins.Then I tested and achieved a fair accuracy. 
